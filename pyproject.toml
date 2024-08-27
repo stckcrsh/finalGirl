@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "final_girl_crew"
+version = "0.1.0"
+description = "final-girl-crew using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.51.0" }
+
+[tool.poetry.scripts]
+final_girl_crew = "final_girl_crew.main:run"
+run_crew = "final_girl_crew.main:run"
+train = "final_girl_crew.main:train"
+replay = "final_girl_crew.main:replay"
+test = "final_girl_crew.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

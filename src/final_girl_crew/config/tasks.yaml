@@ -1,0 +1,21 @@
+game_task:
+  description: >
+    The game is turn based and each turn you will give the players an update and description of things like what
+    the state of the room is how things look and feel, if they heard anything.  You are trying to give them enough
+    information that they can use to make decisions on what action they are going to take on their turn. Once you 
+    get responses from every player about the actions that they are going to take.  Then you will
+    determine the resolution of those actions and store that into state. After everything has been stored then
+    you will start the next turn exactly the same way that you started this turn and continue to do
+    this till the game ends with one of the players winning or dying.
+  expected_output: >
+    Write out each turn with a list of the actions that were taken and by who and then show the diff for all the rooms that changed.  After every ten 
+    turns write out the current state of the mansion. After writing the final turn also include a final state of the mansion
+  agent: GM
+
+player_describe_action_task:
+  description: >
+    Given the context you just recieved make a determination on what your next action will be.  Think about your motivations
+    and the information at hand. 
+  expected_output: >
+    A short sentence explaining what you plan to do.
+  agent: finalGirl

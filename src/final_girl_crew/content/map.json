@@ -1,0 +1,520 @@
+{
+  "Drawing Room": {
+    "exits": [
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway1"
+      },
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Parlor"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Main hall"
+      }
+    ]
+  },
+  "Parlor": {
+    "exits": [
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Drawing Room"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Foyer"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Main hall"
+      }
+    ]
+  },
+  "Foyer": {
+    "exits": [
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed",
+          "glass"
+        ],
+        "room": "Main Hall"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Parlor"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Sitting Room"
+      },
+      {
+        "direction": "south",
+        "tags": [
+          "double",
+          "door",
+          "closed",
+          "glass"
+        ],
+        "room": "hallway2"
+      }
+    ]
+  },
+  "Sitting Room": {
+    "exits": [
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Foyer"
+      },
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Dining Hall"
+      }
+    ]
+  },
+  "Dining Hall": {
+    "exits": [
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Sitting Room"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Main Hall"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway3"
+      }
+    ]
+  },
+  "Main Hall": {
+    "exits": [
+      {
+        "direction": "north",
+        "tags": [
+          "double",
+          "door",
+          "closed"
+        ],
+        "room": "Kitchen"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Drawing Room"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Parlor"
+      },
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Foyer"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Dining Hall"
+      }
+    ]
+  },
+  "Kitchen": {
+    "exits": [
+      {
+        "direction": "south",
+        "tags": [
+          "double",
+          "door",
+          "closed"
+        ],
+        "room": "Main Hall"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Wine Cellar"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Pantry"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway1"
+      }
+    ]
+  },
+  "Wine Cellar": {
+    "exits": [
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Kitchen"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Hedge Maze"
+      },
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway1"
+      }
+    ]
+  },
+  "hallway1": {
+    "exits": [
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Drawing Room"
+      },
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Wine Cellar"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Kitchen"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Hedge Maze"
+      }
+    ]
+  },
+  "Hedge Maze": {
+    "exits": [
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway1"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Wine Cellar"
+      },
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Billiard Room"
+      }
+    ]
+  },
+  "Billiard Room": {
+    "exits": [
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Hedge Maze"
+      },
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Carriage House"
+      }
+    ]
+  },
+  "Carriage House": {
+    "exits": [
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Billiard Room"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway2"
+      }
+    ]
+  },
+  "hallway2": {
+    "exits": [
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Carriage House"
+      },
+      {
+        "direction": "north",
+        "tags": [
+          "double",
+          "door",
+          "closed",
+          "glass"
+        ],
+        "room": "Foyer"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Piazza"
+      },
+      {
+        "direction": "north",
+        "tags": [
+          "open"
+        ],
+        "room": "hallway3"
+      }
+    ]
+  },
+  "Piazza": {
+    "exits": [
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway2"
+      },
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Green House"
+      }
+    ]
+  },
+  "Green House": {
+    "exits": [
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Piazza"
+      },
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Winter Garden"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway3"
+      }
+    ]
+  },
+  "Winter Garden": {
+    "exits": [
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Green House"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Pantry"
+      },
+      {
+        "direction": "south",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "hallway3"
+      }
+    ]
+  },
+  "hallway3": {
+    "exits": [
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Green House"
+      },
+      {
+        "direction": "north",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Winter Garden"
+      },
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Dining Hall"
+      }
+    ]
+  },
+  "Pantry": {
+    "exits": [
+      {
+        "direction": "east",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Kitchen"
+      },
+      {
+        "direction": "west",
+        "tags": [
+          "door",
+          "closed"
+        ],
+        "room": "Winter Garden"
+      }
+    ]
+  }
+}
